@@ -1,0 +1,29 @@
+.images-section {
+    width: 60%; /* Ajusta el tamaño de la sección a tu preferencia */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-left: 20rem; /* Espaciado desde la izquierda */
+  }
+  
+  .image-item {
+    width: 100%;
+    max-width: 300px; /* Ajusta el tamaño máximo de las imágenes */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.05);
+  }
+  
